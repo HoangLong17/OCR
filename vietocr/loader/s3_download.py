@@ -14,19 +14,19 @@ from multiprocessing import Pool
 
 class ConfigS3():
     S3_USE_SSL = True
-    S3_ENDPOINT = "https://devobs01.mbbank.com.vn"
-    # S3_ENDPOINT = "https://10.1.39.64"
-    S3_STORAGE_SYSTEM = "s3"
-    S3_ACCESS_KEY = "AKIA5E623BBF7E54CD09"
-    S3_SECRET_KEY = "LtTRat+6Km+Yqe8un0iyV6Cn5BOX1VZYniiAgHlk"
-    S3_BUCKET_NAME = "datalake"
+    S3_ENDPOINT = ""
+    # S3_ENDPOINT = ""
+    S3_STORAGE_SYSTEM = ""
+    S3_ACCESS_KEY = ""
+    S3_SECRET_KEY = ""
+    S3_BUCKET_NAME = ""
     SAVE_IMAGE = True
-    S3_PATH_IMAGE = "app"
-    S3_PATH_SAVE_POST_CHECK = "serving/image_post_check"
-    S3_PATH_SAVE_TEST = "serving/test"
+    S3_PATH_IMAGE = ""
+    S3_PATH_SAVE_POST_CHECK = ""
+    S3_PATH_SAVE_TEST = ""
 
-    HOST = "10.1.16.49"
-    PORT = 8003
+    HOST = ""
+    PORT = 
 
 class S3StorageService():
 
