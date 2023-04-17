@@ -7,7 +7,6 @@ Sau đó, chạy lệnh sau.
 ```
 sh setup.sh
 ```
-Cuối cùng là tạo thư mục <mark>weights</mark> tải weights từ thư mục <mark>\\vdi-nas01.bank.mb.group\CNTT\lyct\ID_Verfication_!@#\longdh.os\OCR\weights</mark> vào thư mục này.
 
 # Train và Evaluate
 Chỉnh sửa config, vào file <mark>config\/\_\_init\_\_.py</mark>.
